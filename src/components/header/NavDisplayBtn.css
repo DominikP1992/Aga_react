@@ -1,0 +1,31 @@
+.nav-display-btn {
+  position: absolute;
+  display: inline-block;
+  right: 101%;
+  bottom: 5px;
+  height: 100%;
+  width: 100%; }
+  .nav-display-btn .nav-display-btn-link {
+    display: inline-block;
+    background: black;
+    float: right;
+    border-radius: 100%;
+    border: 1rem solid #a66eb7;
+    width: 60px;
+    height: 60px;
+    background-color: #bd8acc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%; }
+  .nav-display-btn .nav-display-btn-text {
+    height: 100%;
+    display: table;
+    float: right;
+    font-size: 35px;
+    color: #845791;
+    margin-right: 10px;
+    margin-top: 5px; }
+    .nav-display-btn .nav-display-btn-text span {
+      display: table-cell;
+      vertical-align: middle;
+      background: transparent; }
