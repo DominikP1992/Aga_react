@@ -28,4 +28,14 @@
     .nav-display-btn .nav-display-btn-text span {
       display: table-cell;
       vertical-align: middle;
-      background: transparent; }
+      background: transparent;
+      margin-left: -100%;
+      margin-right: -100%;
+      text-align: center; }
+    @media only screen and (min-width: 768px) {
+      .nav-display-btn .nav-display-btn-text {
+        margin: 0;
+        width: 100%;
+        display: block; }
+        .nav-display-btn .nav-display-btn-text span {
+          display: block; } }

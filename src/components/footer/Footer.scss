@@ -1,0 +1,19 @@
+@import "../../style/_colors";
+
+footer {
+  width: 100%;
+  padding: 0 20%; 
+  position: relative;
+  &:after{
+    content:" ";
+    position: absolute;
+
+    background-color: $footer-color;
+    display: block;
+    width: 100%;
+    height: 20px;
+    left: 0;
+    top: 5px;
+    z-index: -1;
+  }
+}

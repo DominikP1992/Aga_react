@@ -1,0 +1,8 @@
+.social-btn {
+  display: inline-block;
+  width: 33.33333%;
+  margin: 0 auto;
+  text-align: center; }
+  .social-btn img {
+    width: 30px;
+    height: 30px; }

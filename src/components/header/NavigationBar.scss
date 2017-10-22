@@ -1,31 +1,55 @@
 nav {
-    border: none !important;
+  border: none !important;
 }
 
 .navigation-bar {
-    background-color: transparent;
-    transition: 0.3s ease-in-out;
-    &::before {
-        display: table;
-        content: " ";
-        position: absolute;
-        background-color: #ccb0d4;
-        width: 110%;
-        height: 40px;
-        z-index: -100;
-        top: 5px;
-        left: -5%;
-    }
-    .container {
-        padding: 0;
-        margin-top: 10px;
-    }
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
+  &::before {
+    display: table;
+    content: " ";
+    position: absolute;
+    background-color: #ccb0d4;
+    width: 110%;
+    height: 40px;
+    z-index: -100;
+    top: 5px;
+    left: -5%;
+  }
+  .container {
+    padding: 0;
+    margin-top: 10px;
+  }
 }
 .navigation-bar-closed {
-    transform: translateX(100%);
-    .nav-button {
-        transition: 1s ease-in-out;
-        opacity: 0;
-    }
+  transform: translateX(100%);
+  .nav-button {
+    transition: 1s ease-in-out;
+    opacity: 0;
+  }
 }
 
+@media screen and (min-width: 768px) {
+  .navigation-bar {
+    .container {
+      > :nth-child(n + 2) {
+        float: left;
+      }
+      > :nth-child(n + 5) {
+        float: right;
+      }
+      .nav-button {
+          width: (100%/7);
+      }
+      .nav-display-btn {
+          width: (100%/7);
+          position: relative;
+          right: auto;
+          text-align: center;
+      }
+      .nav-display-btn-link {
+          float: none;
+      }     
+    }
+  }
+}

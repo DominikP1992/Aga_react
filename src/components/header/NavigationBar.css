@@ -23,3 +23,18 @@ nav {
   .navigation-bar-closed .nav-button {
     transition: 1s ease-in-out;
     opacity: 0; }
+
+@media screen and (min-width: 768px) {
+  .navigation-bar .container > :nth-child(n + 2) {
+    float: left; }
+  .navigation-bar .container > :nth-child(n + 5) {
+    float: right; }
+  .navigation-bar .container .nav-button {
+    width: 14.28571%; }
+  .navigation-bar .container .nav-display-btn {
+    width: 14.28571%;
+    position: relative;
+    right: auto;
+    text-align: center; }
+  .navigation-bar .container .nav-display-btn-link {
+    float: none; } }

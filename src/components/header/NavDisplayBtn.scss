@@ -1,3 +1,5 @@
+@import '../../style/breakpoints.scss';
+
 .nav-display-btn {
     position: absolute;
     display: inline-block;
@@ -30,6 +32,17 @@
             display: table-cell;
             vertical-align: middle;
             background: transparent;
+            margin-left: -100%;
+            margin-right: -100%;
+            text-align: center;
+        }
+        @include breakpoint($tabletH){
+            margin: 0;
+            width: 100%;
+            display: block;
+            span {
+                display: block;
+            }
         }
        
     }

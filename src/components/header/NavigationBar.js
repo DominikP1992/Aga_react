@@ -18,13 +18,12 @@ class NavigationBar extends React.Component {
     }
 
     getNavButton() {
-        console.log(this.props.isClose);
         const classes = classNames({
             "navigation-bar":true,
-            "navigation-bar-closed":this.props.isClose
+            "navigation-bar-closed":this.props.isClose && this.props.mobile
         })
         return <Navbar className={classes}>
-            <NavDisplayBtn closeMenu={this.props.closeMenu} isClose={this.props.isClose}/>
+            <NavDisplayBtn closeMenu={this.props.closeMenu} mobile={this.props.mobile} isClose={this.props.isClose}/>
             {tabButtons.map(elem => <NavButton key={elem} tabName={elem} isClose={this.props.isClose} closeMenu={this.props.closeMenu} />)}
         </Navbar>
     }
