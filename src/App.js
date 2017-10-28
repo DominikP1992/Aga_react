@@ -6,6 +6,7 @@ import { mobileWidth } from "./config";
 //components
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
+import Calendar from "./components/calendar/Calendar";
 
 class Main extends React.Component {
   render() {
@@ -37,15 +38,6 @@ class Records extends React.Component {
     return (
       <section>
         <h2>Records</h2>
-      </section>
-    );
-  }
-}
-class Calendar extends React.Component {
-  render() {
-    return (
-      <section>
-        <h2>Calendar</h2>
       </section>
     );
   }

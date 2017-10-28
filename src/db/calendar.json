@@ -1,0 +1,243 @@
+{
+    "calendar": {
+      "weekday": [
+        "sunday",
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday"
+      ],
+      "weekdayPl": [
+        "NIEDZIELA",
+        "PONIEDZIAŁEK",
+        "WTOREK",
+        "ŚRODA",
+        "CZWARTEK",
+        "PIĄTEK",
+        "SOBOTA"
+      ],
+      "monday": {
+        "hour_14": {
+          "quarter_0": "unaviable",
+          "quarter_1": "unaviable",
+          "quarter_2": "unaviable",
+          "quarter_3": "unaviable"
+        },
+        "hour_15": {
+          "quarter_0": "unaviable",
+          "quarter_1": "unaviable",
+          "quarter_2": "unaviable",
+          "quarter_3": "unaviable"
+        },
+        "hour_16": {
+          "quarter_0": "unaviable",
+          "quarter_1": "unaviable",
+          "quarter_2": "unaviable",
+          "quarter_3": "unaviable"
+        },
+        "hour_17": {
+          "quarter_0": "aviable",
+          "quarter_1": "aviable",
+          "quarter_2": "aviable",
+          "quarter_3": "unaviable"
+        },
+        "hour_18": {
+          "quarter_0": "unaviable",
+          "quarter_1": "unaviable",
+          "quarter_2": "unaviable",
+          "quarter_3": "unaviable"
+        },
+        "hour_19": {
+          "quarter_0": "aviable",
+          "quarter_1": "aviable",
+          "quarter_2": "occupied",
+          "quarter_3": "occupied"
+        },
+        "hour_20": {
+          "quarter_0": "occupied",
+          "quarter_1": "occupied",
+          "quarter_2": "occupied",
+          "quarter_3": "occupied"
+        }
+      },
+      "tuesday": {
+        "hour_14": {
+          "quarter_0": "unaviable",
+          "quarter_1": "unaviable",
+          "quarter_2": "unaviable",
+          "quarter_3": "unaviable"
+        },
+        "hour_15": {
+          "quarter_0": "unaviable",
+          "quarter_1": "aviable",
+          "quarter_2": "aviable",
+          "quarter_3": "occupied"
+        },
+        "hour_16": {
+          "quarter_0": "occupied",
+          "quarter_1": "occupied",
+          "quarter_2": "occupied",
+          "quarter_3": "aviable"
+        },
+        "hour_17": {
+          "quarter_0": "aviable",
+          "quarter_1": "aviable",
+          "quarter_2": "aviable",
+          "quarter_3": "occupied"
+        },
+        "hour_18": {
+          "quarter_0": "occupied",
+          "quarter_1": "occupied",
+          "quarter_2": "occupied",
+          "quarter_3": "aviable"
+        },
+        "hour_19": {
+          "quarter_0": "aviable",
+          "quarter_1": "occupied",
+          "quarter_2": "occupied",
+          "quarter_3": "occupied"
+        },
+        "hour_20": {
+          "quarter_0": "unaviable",
+          "quarter_1": "unaviable",
+          "quarter_2": "unaviable",
+          "quarter_3": "unaviable"
+        }
+      },
+      "wednesday": {
+        "hour_14": {
+          "quarter_0": "unaviable",
+          "quarter_1": "unaviable",
+          "quarter_2": "unaviable",
+          "quarter_3": "unaviable"
+        },
+        "hour_15": {
+          "quarter_0": "occupied",
+          "quarter_1": "aviable",
+          "quarter_2": "aviable",
+          "quarter_3": "aviable"
+        },
+        "hour_16": {
+          "quarter_0": "aviable",
+          "quarter_1": "aviable",
+          "quarter_2": "aviable",
+          "quarter_3": "aviable"
+        },
+        "hour_17": {
+          "quarter_0": "aviable",
+          "quarter_1": "aviable",
+          "quarter_2": "unaviable",
+          "quarter_3": "unaviable"
+        },
+        "hour_18": {
+          "quarter_0": "unaviable",
+          "quarter_1": "unaviable",
+          "quarter_2": "unaviable",
+          "quarter_3": "unaviable"
+        },
+        "hour_19": {
+          "quarter_0": "unaviable",
+          "quarter_1": "unaviable",
+          "quarter_2": "unaviable",
+          "quarter_3": "unaviable"
+        },
+        "hour_20": {
+          "quarter_0": "unaviable",
+          "quarter_1": "aviable",
+          "quarter_2": "aviable",
+          "quarter_3": "occupied"
+        }
+      },
+      "thursday": {
+        "hour_14": {
+          "quarter_0": "occupied",
+          "quarter_1": "aviable",
+          "quarter_2": "aviable",
+          "quarter_3": "aviable"
+        },
+        "hour_15": {
+          "quarter_0": "aviable",
+          "quarter_1": "aviable",
+          "quarter_2": "aviable",
+          "quarter_3": "aviable"
+        },
+        "hour_16": {
+          "quarter_0": "aviable",
+          "quarter_1": "aviable",
+          "quarter_2": "aviable",
+          "quarter_3": "aviable"
+        },
+        "hour_17": {
+          "quarter_0": "aviable",
+          "quarter_1": "aviable",
+          "quarter_2": "aviable",
+          "quarter_3": "aviable"
+        },
+        "hour_18": {
+          "quarter_0": "unaviable",
+          "quarter_1": "unaviable",
+          "quarter_2": "unaviable",
+          "quarter_3": "unaviable"
+        },
+        "hour_19": {
+          "quarter_0": "aviable",
+          "quarter_1": "aviable",
+          "quarter_2": "aviable",
+          "quarter_3": "aviable"
+        },
+        "hour_20": {
+          "quarter_0": "aviable",
+          "quarter_1": "aviable",
+          "quarter_2": "aviable",
+          "quarter_3": "aviable"
+        }
+      },
+      "friday": {
+        "hour_14": {
+          "quarter_0": "aviable",
+          "quarter_1": "aviable",
+          "quarter_2": "aviable",
+          "quarter_3": "aviable"
+        },
+        "hour_15": {
+          "quarter_0": "aviable",
+          "quarter_1": "aviable",
+          "quarter_2": "aviable",
+          "quarter_3": "aviable"
+        },
+        "hour_16": {
+          "quarter_0": "aviable",
+          "quarter_1": "aviable",
+          "quarter_2": "aviable",
+          "quarter_3": "aviable"
+        },
+        "hour_17": {
+          "quarter_0": "aviable",
+          "quarter_1": "aviable",
+          "quarter_2": "aviable",
+          "quarter_3": "aviable"
+        },
+        "hour_18": {
+          "quarter_0": "aviable",
+          "quarter_1": "aviable",
+          "quarter_2": "aviable",
+          "quarter_3": "aviable"
+        },
+        "hour_19": {
+          "quarter_0": "aviable",
+          "quarter_1": "aviable",
+          "quarter_2": "aviable",
+          "quarter_3": "aviable"
+        },
+        "hour_20": {
+          "quarter_0": "aviable",
+          "quarter_1": "aviable",
+          "quarter_2": "aviable",
+          "quarter_3": "aviable"
+        }
+      }
+    }
+  }
+  

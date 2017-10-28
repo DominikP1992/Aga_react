@@ -2,7 +2,7 @@ import React from "react";
 import { withRouter } from "react-router-dom";
 import { Col } from "react-bootstrap";
 //config
-import { imgSrc, getTranslate } from "../../config";
+import { imgSrc, getTranslateTabs } from "../../config";
 import "./NavButton.css";
 
 class NavButton extends React.Component {
@@ -13,7 +13,7 @@ class NavButton extends React.Component {
       this.props.closeMenu(true);
   };
   render() {
-    const translatedLocation = getTranslate(this.props.tabName);
+    const translatedLocation = getTranslateTabs(this.props.tabName);
     const img = this.props.tabName.toLowerCase() + ".png";
     return (
       <Col xs={2} className={"nav-button"} onClick={this.handlerClick}>

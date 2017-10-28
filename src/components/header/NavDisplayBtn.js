@@ -2,7 +2,7 @@ import React from "react";
 import { withRouter } from "react-router-dom";
 
 //config
-import { imgSrc, getTranslate } from "../../config";
+import { imgSrc, getTranslateTabs } from "../../config";
 import "./NavDisplayBtn.css";
 
 class NavDisplayBtn extends React.Component {
@@ -15,7 +15,7 @@ class NavDisplayBtn extends React.Component {
     if (this.props.location.pathname == "/") {
       location = "About";
     }
-    const translatedLocation = getTranslate(location);
+    const translatedLocation = getTranslateTabs(location);
     const img = location.toLowerCase() + ".png";
     return (
       <div className="nav-display-btn" onClick={this.handlerClick}>
