@@ -17,6 +17,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50%; }
+    @media only screen and (min-width: 768px) {
+      .nav-display-btn .nav-display-btn-link {
+        width: 100px;
+        height: 100px; } }
   .nav-display-btn .nav-display-btn-text {
     height: 100%;
     display: table;
@@ -36,6 +40,7 @@
       .nav-display-btn .nav-display-btn-text {
         margin: 0;
         width: 100%;
-        display: block; }
+        display: block;
+        font-size: 40px; }
         .nav-display-btn .nav-display-btn-text span {
           display: block; } }

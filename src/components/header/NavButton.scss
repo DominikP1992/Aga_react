@@ -1,6 +1,10 @@
+@import '../../style/breakpoints.scss';
 .nav-button {
     position: relative;
     padding: 0;
+    @include breakpoint($tabletH){
+        margin-top: 10px;
+    }
 }
 
 .nav-button-link {
@@ -14,6 +18,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50%;
+    @include breakpoint($tabletH){
+        width: 70px;
+        height: 70px;
+    }
 }
 
 .nav-button-text {
@@ -26,7 +34,6 @@
     text-align: center;
     border-right: 1px solid white;
     border-left: 1px solid white;
-
     span {
         display: block;
         color: #845791;
@@ -35,6 +42,14 @@
         text-align: center;
         width: 55px;
         margin: 0 auto;
+    }
+    @include breakpoint($tabletH){
+        font-size: 20px;
+        bottom: -30px;
+        span{
+            width: 100%;
+            background: transparent;
+        }
     }
 }
 

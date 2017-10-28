@@ -1,6 +1,9 @@
 .nav-button {
   position: relative;
   padding: 0; }
+  @media only screen and (min-width: 768px) {
+    .nav-button {
+      margin-top: 10px; } }
 
 .nav-button-link {
   margin: 0 auto;
@@ -13,6 +16,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 50%; }
+  @media only screen and (min-width: 768px) {
+    .nav-button-link {
+      width: 70px;
+      height: 70px; } }
 
 .nav-button-text {
   white-space: nowrap;
@@ -32,3 +39,10 @@
     text-align: center;
     width: 55px;
     margin: 0 auto; }
+  @media only screen and (min-width: 768px) {
+    .nav-button-text {
+      font-size: 20px;
+      bottom: -30px; }
+      .nav-button-text span {
+        width: 100%;
+        background: transparent; } }

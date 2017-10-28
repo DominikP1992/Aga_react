@@ -1,52 +1,53 @@
-@import '../../style/breakpoints.scss';
+@import "../../style/breakpoints.scss";
 
 .nav-display-btn {
-    position: absolute;
+  position: absolute;
+  display: inline-block;
+  right: 101%;
+  bottom: 5px;
+  height: 100%;
+  width: 100%;
+  .nav-display-btn-link {
     display: inline-block;
-    right: 101%;
-    bottom: 5px;
+    background: black;
+    float: right;
+    border-radius: 100%;
+    border: 1rem solid #a66eb7;
+    width: 60px;
+    height: 60px;
+    background-color: #bd8acc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    @include breakpoint($tabletH) {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  .nav-display-btn-text {
     height: 100%;
-    width: 100%;
-    .nav-display-btn-link {
-        display: inline-block;
-        background: black;
-        float: right;
-        border-radius: 100%;
-        border: 1rem solid #a66eb7;
-        width: 60px;
-        height: 60px;
-        background-color: #bd8acc;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 50%;
+    display: table;
+    float: right;
+    font-size: 35px;
+    color: #845791;
+    margin-right: 10px;
+    margin-top: 5px;
+    span {
+      display: table-cell;
+      vertical-align: middle;
+      background: transparent;
+      margin-left: -100%;
+      margin-right: -100%;
+      text-align: center;
     }
-    .nav-display-btn-text {
-        height: 100%;
-        display: table;
-        float: right;
-        font-size: 35px;
-        color: #845791;
-        margin-right: 10px;
-        margin-top: 5px;
-        span{
-            display: table-cell;
-            vertical-align: middle;
-            background: transparent;
-            margin-left: -100%;
-            margin-right: -100%;
-            text-align: center;
-        }
-        @include breakpoint($tabletH){
-            margin: 0;
-            width: 100%;
-            display: block;
-            span {
-                display: block;
-            }
-        }
-       
+    @include breakpoint($tabletH) {
+      margin: 0;
+      width: 100%;
+      display: block;
+      font-size: 40px;
+      span {
+        display: block;
+      }
     }
+  }
 }
-
-
-
