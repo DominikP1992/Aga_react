@@ -1,0 +1,16 @@
+@import "../../style/colors";
+
+.calendar-column-day-cell {
+  li {
+    height: 25%;
+  }
+}
+.unaviable {
+  background-color: $calendar-unaviable;
+}
+.aviable {
+  background-color: $calendar-aviable;
+}
+.occupied {
+  background-color: $calendar-occupied;
+}

@@ -1,0 +1,11 @@
+.calendar-column-day-cell li {
+  height: 25%; }
+
+.unaviable {
+  background-color: lightgray; }
+
+.aviable {
+  background-color: lightgreen; }
+
+.occupied {
+  background-color: red; }

@@ -1,0 +1,27 @@
+.calendar-wrapper {
+  margin-left: auto;
+  margin-right: auto; }
+  .calendar-wrapper li {
+    list-style-type: none; }
+
+.calendar-column {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  padding-right: 10px;
+  text-align: center;
+  vertical-align: top;
+  width: 125px; }
+  .calendar-column:first-child {
+    width: auto; }
+  .calendar-column ul {
+    padding: 0; }
+
+.calendar-column-header {
+  height: 30px;
+  display: block; }
+
+.calendar-column-hour {
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 5px; }

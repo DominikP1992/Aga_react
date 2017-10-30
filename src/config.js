@@ -14,13 +14,11 @@ const translate = {
       Contact: "Kontakt"
     },
     weekdays: {
-      sunday: "Niedziela",
       monday: "Poniedziałek",
       tuesday: "Wtorek",
       wednesday: "Środa",
       thursday: "Czwartek",
       friday: "Piątek",
-      saturday: "Sobota",
     }
 
   },
@@ -34,47 +32,50 @@ const translate = {
       Contact: "Contact"
     },
     weekdays: {
-      sunday: "Sunday",
       monday: "Monday",
       tuesday: "Tuesday",
       wednesday: "Wednesday",
       thursday: "Thursday",
       friday: "Friday",
-      saturday: "Saturday",
     }
   }
 }
 
 
 
-  export const mobileWidth = 767;  
-  export const getTranslateTabs = key => translate[currentLang]["tabs"][key];
-  export const imgSrc = "./src/assets/img/";
-  export const tabButtons = [
-    "About",
-    "Gallery",
-    "Records",
-    "Calendar",
-    "Blog",
-    "Contact"
-  ];
-  export const socialMedia = [
-    {
-      link: "https://www.instagram.com/",
-      alt: "Youtube",
-      imgSrc: ytLogo,
-    },
-    {
-      link: "https://www.youtube.com/",
-      alt: "Instagram",
-      imgSrc: instLogo,
-    },
-    {
-      link: "https://www.instagram.com/",
-      alt: "Youtube",
-      imgSrc: fbLogo,
-    },
-  ]
+export const mobileWidth = 767;
+export const getTranslateTabs = key => translate[currentLang]["tabs"][key];
 
-export const time = { timeStart: 14, timeEnd: 21 };
+export const weekdays = translate[currentLang]["weekdays"]
 
+
+export const imgSrc = "./src/assets/img/";
+export const tabButtons = [
+  "About",
+  "Gallery",
+  "Records",
+  "Calendar",
+  "Blog",
+  "Contact"
+];
+export const socialMedia = [
+  {
+    link: "https://www.instagram.com/",
+    alt: "Youtube",
+    imgSrc: ytLogo,
+  },
+  {
+    link: "https://www.youtube.com/",
+    alt: "Instagram",
+    imgSrc: instLogo,
+  },
+  {
+    link: "https://www.instagram.com/",
+    alt: "Youtube",
+    imgSrc: fbLogo,
+  },
+]
+
+export const calendarTime = { timeStart: 14, timeEnd: 21 };
+
+export const calendarUrl = "http://localhost:5000/calendar";

@@ -1,23 +1,5 @@
 {
     "calendar": {
-      "weekday": [
-        "sunday",
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday",
-        "saturday"
-      ],
-      "weekdayPl": [
-        "NIEDZIELA",
-        "PONIEDZIAŁEK",
-        "WTOREK",
-        "ŚRODA",
-        "CZWARTEK",
-        "PIĄTEK",
-        "SOBOTA"
-      ],
       "monday": {
         "hour_14": {
           "quarter_0": "unaviable",

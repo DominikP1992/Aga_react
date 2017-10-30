@@ -1,26 +1,19 @@
 import React from "react";
 import classNames from "classnames";
 
-//config
-import { socialMedia } from "../../config";
 //css
-
+import "./CalendarWrapper.css";
 //components
+import CalendarColumnDay from "./CalendarColumnDay";
+import CalendarColumnHours from "./CalendarColumnHours";
 
-class CalendarWrapper extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-
-    }
-  }
-  render() {
-    return <div className="">
-        
-    </div>
-  }
-
-}
-
+const CalendarWrapper = ({ days, timeRange, calendarInfo }) => (
+  <center className="calendar-wrapper">
+    <CalendarColumnHours timeRange={timeRange} />
+    {Object.keys(days).map(day => (
+      <CalendarColumnDay calendarInfo={calendarInfo} dayKey={day} day={days[day].toUpperCase()} timeRange={timeRange} />
+    ))}
+  </center>
+);
 
 export default CalendarWrapper;
