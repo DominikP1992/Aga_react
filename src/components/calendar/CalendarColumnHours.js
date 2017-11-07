@@ -7,7 +7,7 @@ import "./CalendarColumnHours.css";
 
 const CalendarColumnHours = ({ timeRange }) => (
   <ul className="calendar-column">
-    <li className="calendar-column-header" />
+    <li className="calendar-column-header calendar-column-header-hour" />
     {timeRange.map(time => <li className="calendar-column-hour">{time}</li>)}
   </ul>
 );

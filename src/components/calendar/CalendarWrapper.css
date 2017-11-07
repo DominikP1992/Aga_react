@@ -8,20 +8,23 @@
   display: inline-block;
   margin: 0;
   padding: 0;
-  padding-right: 10px;
+  padding-right: 5px;
   text-align: center;
   vertical-align: top;
-  width: 125px; }
+  width: 135px; }
   .calendar-column:first-child {
     width: auto; }
   .calendar-column ul {
     padding: 0; }
 
 .calendar-column-header {
-  height: 30px;
-  display: block; }
+  height: 70px;
+  line-height: 70px;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px; }
 
 .calendar-column-hour {
-  height: 50px;
-  line-height: 50px;
+  height: 40px;
+  line-height: 40px;
   margin-bottom: 5px; }

@@ -1,0 +1,36 @@
+.calendar-legend {
+  width: 100%;
+  margin-bottom: 20px; }
+  @media only screen and (min-width: 768px) {
+    .calendar-legend {
+      width: 70%; } }
+  .calendar-legend > div {
+    width: 33.33333%;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: top;
+    margin-top: 20px;
+    position: relative; }
+    .calendar-legend > div > div {
+      width: 40px;
+      height: 100%;
+      border: 1px solid black;
+      display: inline-block;
+      font-size: 20px; }
+    .calendar-legend > div > span {
+      font-size: 16px;
+      position: absolute;
+      width: 100px;
+      left: 0;
+      top: 40px; }
+
+.legend-icon-aviable {
+  background-color: lightgreen; }
+
+.legend-icon-occupied {
+  background-color: red; }
+
+.legend-icon-unaviable {
+  background-color: lightgray;
+  line-height: 35px; }
