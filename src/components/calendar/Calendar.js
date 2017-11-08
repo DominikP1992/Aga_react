@@ -34,8 +34,9 @@ class Calendar extends React.Component {
   };
 
   getToday = () => {
-    const day = new Date();
-    return day.getDay() > 5 || day.getDay() <= 1 ? 1 : day.getDay() - 1;
+    let day = new Date();
+    day = day.getDay();
+    return day > 5 || day <= 1 ? 0 : day - 1;
   };
 
   render() {
@@ -46,6 +47,7 @@ class Calendar extends React.Component {
           today={this.state.today}
           timeRange={this.state.timeRange}
           calendarInfo={this.state.calendarInfo}
+          isMobile = {this.props.isMobile} 
         />
       </section>
     );

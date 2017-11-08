@@ -78,7 +78,6 @@ class App extends React.Component {
     this.mobile = window.matchMedia(`screen and (max-width: ${mobileWidth}px`);
   }
   componentDidMount() {
-    
     this.isMobile();
     this.mobile.addListener(mobile => {
       this.isMobile();
@@ -101,7 +100,7 @@ class App extends React.Component {
             <Route exact path="/About" component={About} />
             <Route exact path="/Gallery" component={Gallery} />
             <Route exact path="/Records" component={Records} />
-            <Route exact path="/Calendar" component={Calendar} />
+            <Route exact path="/Calendar" component={() => <Calendar isMobile={this.state.mobile} />} />
             <Route exact path="/Blog" component={Blog} />
             <Route exact path="/Contact" component={Contact} />
             <Route exact path="*" component={ErrorPage} /> 
