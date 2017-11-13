@@ -1,0 +1,12 @@
+@import "../../style/colors";
+@import "../../style/breakpoints";
+
+.contact-map {
+    height: 300px;
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    @include breakpoint($tabletH) {
+        width: 50%;
+      }
+}

@@ -1,0 +1,16 @@
+@import "../style/fonts";
+html {
+    font-size: 0.1vw;
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    section {
+        min-height: calc(100vh - 250px)
+    }
+    #root {
+        overflow: hidden;
+        min-height: 100vh;
+    }
+}

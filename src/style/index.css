@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope");
+html {
+  font-size: 0.1vw; }
+  html body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+  html section {
+    min-height: calc(100vh - 250px); }
+  html #root {
+    overflow: hidden;
+    min-height: 100vh; }

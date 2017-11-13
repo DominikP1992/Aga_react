@@ -1,0 +1,15 @@
+@import "../../style/colors";
+@import "../../style/breakpoints";
+
+
+
+.contact-description {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    @include breakpoint($tabletH) {
+        width: 50%;
+      }
+    
+}

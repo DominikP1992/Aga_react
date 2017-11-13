@@ -7,7 +7,10 @@ import { mobileWidth } from "./config";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Calendar from "./components/calendar/Calendar";
+import Contact from "./components/contact/Contact";
 
+
+// css
 class Main extends React.Component {
   render() {
     return <h2>To jest strona glowna</h2>;
@@ -53,16 +56,6 @@ class Blog extends React.Component {
   }
 }
 
-class Contact extends React.Component {
-  render() {
-    return (
-      <section>
-        <h2>Contact</h2>
-      </section>
-    );
-  }
-}
-
 class ErrorPage extends React.Component {
   render() {
     return <section>brak strony</section>;
@@ -102,7 +95,7 @@ class App extends React.Component {
             <Route exact path="/Records" component={Records} />
             <Route exact path="/Calendar" component={() => <Calendar isMobile={this.state.mobile} />} />
             <Route exact path="/Blog" component={Blog} />
-            <Route exact path="/Contact" component={Contact} />
+            <Route exact path="/Contact" component={() => <Contact isMobile={this.state.mobile} />} />
             <Route exact path="*" component={ErrorPage} /> 
           </Switch>
           <Footer/>
